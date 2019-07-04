@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+  <extra-path name="my_images" path=""/>
+</paths>
+
+<!--extra-path指定uri共享的 name随便填 path表示共享的具体文件路径 如果为空则表示整个sd卡共享-->

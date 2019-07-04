@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.any.MainActivity"
+    android:orientation="vertical"
+    >
+
+  <Button
+      android:id="@+id/select_bt"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:text="选择安装包"
+      />
+
+  <TextView
+      android:id="@+id/file_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:padding="5dp"
+      />
+
+  <Button
+      android:id="@+id/fast_bt"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="5dp"
+      android:text="急速安装"
+      />
+
+  <Button
+      android:id="@+id/immesive_bt"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="5dp"
+      android:text="immersive沉浸式模式"
+      />
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.any.MainActivity"
+    >
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+      <Button
+          android:id="@+id/recycler_bt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:text="RecyclerView"
+          />
+
+      <Button
+          android:id="@+id/glide_bt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="5dp"
+          android:text="glide加载图片"
+          />
+
+      <Button
+          android:id="@+id/immesive_bt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="5dp"
+          android:text="immersive沉浸式模式"
+          />
+
+      <Button
+          android:id="@+id/silent_bt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="5dp"
+          android:text="静默安装apk"
+          />
+
+      <Button
+          android:id="@+id/waller_bt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="5dp"
+          android:text="动态壁纸"
+          />
+
+      <Button
+          android:id="@+id/file_bt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="5dp"
+          android:text="文件操作"
+          />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+
+        <Button
+            android:id="@+id/bt_bindService"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="bindService"
+            />
+
+        <Button
+            android:id="@+id/bt_startMethod"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="startMethod"
+            />
+
+      </LinearLayout>
+
+      <Button
+          android:id="@+id/bt_dialog"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:text="nice dialog"
+          />
+
+      <Button
+          android:id="@+id/bt_lock"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:text="手势解锁"
+          />
+
+      <Button
+          android:id="@+id/bt_pdf"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:text="查看Pdf文件"
+          />
+
+    </LinearLayout>
+
+  </ScrollView>
+</RelativeLayout>

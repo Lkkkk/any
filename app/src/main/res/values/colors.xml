@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#3F51B5</color>
+  <color name="colorPrimaryDark">#303F9F</color>
+  <color name="colorAccent">#FF4081</color>
+
+  <color name="float_transparent">#66000000</color>
+  <color name="sweet_dialog_bg_color">#FFFFFF</color>
+  <color name="button_text_color">#FFFFFF</color>
+  <color name="gray_btn_bg_color">#D0D0D0</color>
+  <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+  <color name="blue_btn_bg_color">#AEDEF4</color>
+  <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+  <color name="red_btn_bg_color">#DD6B55</color>
+  <color name="red_btn_bg_pressed_color">#CD5B55</color>
+  <color name="error_stroke_color">#F27474</color>
+  <color name="success_stroke_color">#A5DC86</color>
+  <color name="trans_success_stroke_color">#33A5DC86</color>
+  <color name="warning_stroke_color">#F8BB86</color>
+  <color name="grey_b2b2b2">#B2B2B2</color>
+  <color name="blue_78d2f6">#78D2F6</color>
+  <color name="blue_01aaee">#01AAEE</color>
+  <color name="blue_00aaee">#00AAEE</color>
+  <color name="red_f3323b">#F3323B</color>
+  <color name="grey_f6f6f6">#f6f6f6</color>
+  <color name="grey_a5a5a5">#A5A5A5</color>
+  <color name="grey_dde1e7">#DDE1E7</color>
+  <color name="red_f4333c">#F4333C</color>
+  <color name="white">#ffffffff</color>
+
+</resources>

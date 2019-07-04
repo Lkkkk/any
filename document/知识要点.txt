@@ -1,0 +1,19 @@
+ 1 自定义分割线背景  style中新增 <item name="android:listDivider">@drawable/divider_bg</item>
+ 2 分割线类  https://gist.github.com/alexfu/0f464fc3742f134ccd1e
+ 3 加载动画 https://github.com/gabrielemariotti/RecyclerViewItemAnimators
+ 4 glide加載圖片 https://github.com/bumptech/glide
+ 5 打包签名 http://blog.csdn.net/lk_0x00/article/details/78673779
+ 6 代码混淆 http://blog.csdn.net/lk_0x00/article/details/78674143
+ 7 butterknife https://github.com/JakeWharton/butterknife
+ 8 沉浸式模式 http://blog.csdn.net/guolin_blog/article/details/51763825
+ 9 静默安装apk  root情况下调用 pm install -r 命令  非root情况下
+ 10 视频动态壁纸  wallerService+mediaplay+surfaceview
+ 11 为recyclerView添加headview和footview  https://github.com/hongyangAndroid/baseAdapter
+ 12 notification
+ 13 音频 mediaplay 视频 videoview
+ 14 webview
+ 15 material design设计(android 5.0): ToolBar DrawerLayout  NavigationView FloatingActionButton SnackBar CoordinatorLayout CardView SwipeRefreshLayout
+ CollapsingToolBarLayout
+ 16 aidl跨进程通信
+ 17 添加rxjava  简洁的实现可视序列化的异步事件机制
+ 18 mvp架构  依赖mosby库

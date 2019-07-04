@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.any">
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+
+  <application
+      android:name="com.example.admin.any.MyApplication"
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:supportsRtl="true"
+      android:theme="@style/AppTheme">
+
+    <activity
+        android:name=".splash.SplashActivity"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppFullScreenTheme">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <activity android:name=".MainActivity"
+        android:launchMode="singleTask"
+        />
+
+    <activity android:name=".recyclerview.RVActivity" />
+    <activity android:name=".GlideTestActivity" />
+    <activity android:name=".ImmersiveActivity" />
+    <activity android:name=".silentinstall.SilentActivity" />
+    <activity android:name=".silentinstall.FileExploreActivity" />
+    <activity android:name=".wallerpaper.VideoWallerActivity" />
+    <activity android:name=".FileTestActivity" />
+    <activity android:name=".NotificationActivity" />
+    <activity android:name=".WebActivity" />
+    <activity android:name=".dialog.SampleActivity" />
+    <activity android:name=".lock.CreateGestureActivity"/>
+    <activity android:name=".lock.GestureLoginActivity"/>
+    <activity android:name=".PdfTestActivity" />
+    <activity android:name=".recyclerview.RvListActivity"/>
+
+    <provider
+        android:name="android.support.v4.content.FileProvider"
+        android:authorities="com.example.admin.any.fileprovider"
+        android:exported="false"
+        android:grantUriPermissions="true">
+      <meta-data
+          android:name="android.support.FILE_PROVIDER_PATHS"
+          android:resource="@xml/file_path" />
+    </provider>
+
+    <!--service-->
+    <service
+        android:name=".wallerpaper.VideoWallerService"
+        android:label="@string/app_name"
+        android:permission="android.permission.BIND_WALLPAPER"
+        android:process=":wallpaper">
+      <!-- 配置intent-filter -->
+      <intent-filter>
+        <action android:name="android.service.wallpaper.WallpaperService" />
+      </intent-filter>
+      <!-- 配置meta-data -->
+      <meta-data
+          android:name="android.service.wallpaper"
+          android:resource="@xml/livewallpaper" />
+    </service>
+
+    <!--aidl的服务-->
+    <service
+        android:name=".service.AidlRemoteService"
+        android:process=":remote" />
+
+  </application>
+
+</manifest>
